@@ -18,7 +18,7 @@ public class Num10815 {
         for (int i = 0; i < n3; i++) {
 //            int n4 = sc.nextInt();
 //            arr2[i] += n4;
-            arr2[i] = sc.nextInt()
+            arr2[i] = sc.nextInt();
         }
 
         //출력값 담을 배열
