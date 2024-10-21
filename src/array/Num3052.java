@@ -16,7 +16,7 @@ public class Num3052 {
         for (int i = 0; i < list.size(); i++) {
             remain.add(list.get(i)%42);
         }
-        // Set을 사용하여 중복값을 하나로
+        // Set을 사용하여 중복값 제거
         Set<Integer> unique = new HashSet<>(remain);
         System.out.println(unique.size()); // 그냥 배열 크기 반환
 }
