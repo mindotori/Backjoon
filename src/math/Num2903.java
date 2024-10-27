@@ -1,5 +1,6 @@
 package math;
 
+import java.util.Map;
 import java.util.Scanner;
 
 public class Num2903 {
@@ -13,6 +14,7 @@ public class Num2903 {
         }
         System.out.println(dot * dot);
 
+        //System.out.println(Math.pow(33,2));
 
     }
 }
