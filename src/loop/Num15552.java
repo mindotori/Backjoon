@@ -19,11 +19,14 @@ public class Num15552 {
         for (int i = 0; i < t; i++) {
             //a와 b입력 받기
             StringTokenizer st = new StringTokenizer(br.readLine());
+            //구분자를 기준으로 문자열 잘라냄
+            //구분자가 없으면 공백을 기준으로 자른다 (여기서 이 상황)
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
 
             //a + b 결과 출력
             int sum = a + b;
+            //.write()에는 문자열을 전달해야 하는데 sum은 int니깐 문자열로 형변환
             bw.write(Integer.toString(sum));
             bw.newLine();
         }
