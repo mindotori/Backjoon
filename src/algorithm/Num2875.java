@@ -1,16 +1,13 @@
 package algorithm;
 
-import java.util.Map;
 import java.util.Scanner;
 
-public class Num2231 {
+public class Num2875 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int n = sc.nextInt();
-
-        System.out.println(Math.sqrt(n));
-
+        int m = sc.nextInt();
+        int k = sc.nextInt();
 
 
 
