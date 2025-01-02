@@ -27,10 +27,8 @@ public class Boj10798 {
                     continue;
                 }
                 sb.append(arr[j][i]);
-
             }
         }
-
         System.out.println(sb);
 
 
