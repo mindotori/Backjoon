@@ -1,14 +1,23 @@
 package algorithm;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Boj1436 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int k = n-1;
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
 
-        System.out.println(k + "666");
+        int num = 666;
+        int count = 1;
 
+        while(count != n){
+            num++;
+            if(String.valueOf(num).contains("666")){
+                count++;
+            }
+        }
+        System.out.println(num);
     }
 }
