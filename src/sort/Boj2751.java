@@ -22,6 +22,7 @@ public class Boj2751 {
         //정렬
         Arrays.sort(arr);
 
+
         //중복 제거 및 출력 준비
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < n; i++) {
